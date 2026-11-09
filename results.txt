@@ -1,0 +1,39 @@
+=== BASIC STATISTICS ===
+       Temperature_C  Humidity_pct  Light_lux
+count         168.00        168.00     168.00
+mean           29.15         74.70     206.02
+std             2.98          6.18     252.11
+min            23.70         58.80       0.00
+25%            26.48         70.18       0.00
+50%            28.90         74.65       0.00
+75%            31.60         79.93     453.00
+max            35.00         88.50     665.00
+
+Mean temperature   : 29.15 C
+Median temperature : 28.90 C
+Std deviation      : 2.98
+Max / Min temp     : 35.0 / 23.7 C
+Hottest hour (avg) : 15:00
+Coolest hour (avg) : 2:00
+
+=== CORRELATION ===
+               Temperature_C  Humidity_pct  Light_lux
+Temperature_C          1.000        -0.926      0.618
+Humidity_pct          -0.926         1.000     -0.562
+Light_lux              0.618        -0.562      1.000
+
+=== AVERAGE TEMPERATURE PER DAY ===
+Day
+Mon    29.31
+Tue    28.59
+Wed    29.10
+Thu    29.65
+Fri    30.71
+Sat    28.34
+Sun    28.32
+
+=== COMFORT LEVEL COUNT ===
+Comfort
+Cool           68
+Hot            56
+Comfortable    44
